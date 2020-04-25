@@ -12,3 +12,6 @@ You should be able to just deploy doing
 
 # Created with
 This was created using the expo cli and .tsx files
+
+# Author(s)
+* Marny Lopez

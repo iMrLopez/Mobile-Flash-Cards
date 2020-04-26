@@ -15,3 +15,5 @@ This was created using the expo cli and .tsx files
 
 # Author(s)
 * Marny Lopez
+
+# Last update on 04/25/20

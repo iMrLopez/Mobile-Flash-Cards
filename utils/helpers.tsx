@@ -1,5 +1,4 @@
 import * as api from "../utils/api";
-export const FLASHCARD_DB_KEY = "FlashCards:cards";
 import { Notifications } from "expo";
 import * as Permissions from "expo-permissions";
 import Constants from "expo-constants";

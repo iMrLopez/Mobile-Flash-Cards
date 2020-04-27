@@ -1,5 +1,6 @@
 import { AsyncStorage } from "react-native";
-import { FLASHCARD_DB_KEY } from "./helpers";
+
+const FLASHCARD_DB_KEY = "FlashCards:cards";
 
 export function starterDecks(deck) {
   return AsyncStorage.setItem(

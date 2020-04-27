@@ -15,15 +15,15 @@ export const startingDeck = {
   deckTitle: "React",
   cards: [
     {
-      question: "Did Facebook create React?",
-      answer: true,
-    },
-    {
-      question: "Does React Only Work On Web?",
+      question: "Is React a Web-Only framework?",
       answer: false,
     },
     {
-      question: "Does React use JSX?",
+      question: "Was React created by FB?",
+      answer: true,
+    },
+    {
+      question: "React uses JSX?",
       answer: true,
     },
   ],

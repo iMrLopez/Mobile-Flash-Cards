@@ -26,11 +26,10 @@ class MainPage extends Component {
         <ScrollView>
           {this.props.decks.map((deck) => {
             return (
-              <View key={deck.deckTitle} style={styles.deck}>
+              <View key={deck.deckId} style={styles.deck}>
                 <View style={styles.row}>
                   <Text style={{ fontSize: 22, fontWeight: "bold" }}>
-                    {" "}
-                    {deck.deckTitle}{" "}
+                    {"" + deck.deckTitle + " "}
                   </Text>
                   <Text style={{ paddingBottom: 10 }}>
                     {deck.cards.length === 0

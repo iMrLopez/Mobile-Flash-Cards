@@ -21,7 +21,11 @@ export function addDeck(deck) {
 
 export function fetchAllDecks() {
   return AsyncStorage.getItem(FLASHCARD_DB_KEY).then((decks) =>
-    Object.values(JSON.parse(decks))
+  {
+    if (decks) {
+      return Object.values(JSON.parse(decks))
+    }
+  }
   );
 }
 

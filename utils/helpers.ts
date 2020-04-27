@@ -1,4 +1,4 @@
-import * as api from "../utils/api";
+import * as api from "./api";
 import { Notifications } from "expo";
 import * as Permissions from "expo-permissions";
 import Constants from "expo-constants";
